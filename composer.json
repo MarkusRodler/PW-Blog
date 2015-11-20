@@ -8,7 +8,9 @@
         }
     ],
     "require": {},
-    "require-dev": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "dev-master"
+    },
     "autoload": {
         "psr-4": { "Dark\\PW\\Blog\\": ["src/"] }
     }

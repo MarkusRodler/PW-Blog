@@ -5,11 +5,12 @@ namespace Dark\PW\Blog;
 
 class ArticleRenderer
 {
-	/**
-	 * @param Article $article
-	 */
-	public function render(Article $article)
-	{
-		echo PHP_EOL . 'Article: ' . $article->getHeadline();
-	}
+
+    /**
+     * @param Article $article
+     */
+    public function render(Article $article)
+    {
+        echo PHP_EOL . 'Article: ' . $article->getHeadline();
+    }
 }

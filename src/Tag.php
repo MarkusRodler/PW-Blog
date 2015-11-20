@@ -5,25 +5,25 @@ namespace Dark\PW\Blog;
 
 class Tag
 {
-	/**
-	 *
-	 * @var string
-	 */
-	private $name;
+    /**
+     *
+     * @var string
+     */
+    private $name;
 
-	/**
-	 * @return string
-	 */
-	function getName()
-	{
-		return $this->name;
-	}
+    /**
+     * @return string
+     */
+    function getName()
+    {
+        return $this->name;
+    }
 
-	/**
-	 * @param string $name
-	 */
-	public function __construct(\string $name)
-	{
-		$this->name = $name;
-	}
+    /**
+     * @param string $name
+     */
+    public function __construct(\string $name)
+    {
+        $this->name = $name;
+    }
 }

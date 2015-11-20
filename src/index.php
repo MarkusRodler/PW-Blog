@@ -12,15 +12,15 @@ require '../vendor/autoload.php';
 $author = new User('markus.rodler');
 $blog = new Blog('My beautiful Blog', $author);
 for ($i = 0; $i < 10; $i++) {
-	$blog->addArticle(
-			new Article(
-					'My Headline' . $i,
-					'My Body' . $i,
-					[new Tag('First Tag'), new Tag('Second Tag')],
-					$author
-			),
-			$author
-	);
+    $blog->addArticle(
+        new Article(
+            'My Headline' . $i,
+            'My Body' . $i,
+            [new Tag('First Tag'), new Tag('Second Tag')],
+            $author
+        ),
+        $author
+    );
 }
 
 $blogRenderer = new BlogRenderer();
@@ -30,8 +30,8 @@ $tagRenderer = new TagRenderer();
 $articles = $blog->getArticles();
 $articleRenderer = new ArticleRenderer();
 foreach ($articles as $article) {
-	$articleRenderer->render($article);
-	foreach ($article->getTags() as $tag) {
-		$tagRenderer->render($tag);
-	}
+    $articleRenderer->render($article);
+    foreach ($article->getTags() as $tag) {
+        $tagRenderer->render($tag);
+    }
 }
