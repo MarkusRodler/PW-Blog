@@ -24,7 +24,7 @@ class Blog
     /**
      * @return string
      */
-    public function getName()
+    public function getName() : \string
     {
         return $this->name;
     }
@@ -32,7 +32,7 @@ class Blog
     /**
      * @return User
      */
-    public function getOwner()
+    public function getOwner() : User
     {
         return $this->owner;
     }
@@ -40,7 +40,7 @@ class Blog
     /**
      * @return Article[]
      */
-    public function getArticles()
+    public function getArticles() : array
     {
         return $this->articles;
     }

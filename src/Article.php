@@ -28,7 +28,7 @@ class Article
     /**
      * @return string
      */
-    function getHeadline()
+    function getHeadline() : \string
     {
         return $this->headline;
     }
@@ -36,7 +36,7 @@ class Article
     /**
      * @return string
      */
-    function getBody()
+    function getBody() : \string
     {
         return $this->headline;
     }
@@ -44,7 +44,7 @@ class Article
     /**
      * @return array
      */
-    function getTags()
+    function getTags() : array
     {
         return $this->tags;
     }
@@ -52,7 +52,7 @@ class Article
     /**
      * @return User
      */
-    function getAuthor()
+    function getAuthor() : User
     {
         return $this->author;
     }

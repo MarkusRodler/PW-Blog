@@ -13,7 +13,7 @@ class User
     /**
      * @return string
      */
-    function getEmail()
+    function getEmail() : \string
     {
         return $this->email;
     }
