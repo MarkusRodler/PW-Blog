@@ -9,7 +9,7 @@ require '../vendor/autoload.php';
 //{
 //	require __DIR__ . '\\' . $class . '.php';
 //}
-$author = new User('markus.rodler');
+$author = new User('markus.rodler@test.de');
 $blog = new Blog('My beautiful Blog', $author);
 for ($i = 0; $i < 10; $i++) {
     $blog->addArticle(
