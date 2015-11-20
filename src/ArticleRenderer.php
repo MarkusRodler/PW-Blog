@@ -5,7 +5,6 @@ namespace Dark\PW\Blog;
 
 class ArticleRenderer
 {
-
     /**
      * @param Article $article
      */

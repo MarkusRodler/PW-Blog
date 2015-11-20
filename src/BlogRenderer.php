@@ -5,7 +5,6 @@ namespace Dark\PW\Blog;
 
 class BlogRenderer
 {
-
     /**
      * @param Blog $blog
      */

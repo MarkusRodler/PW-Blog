@@ -5,7 +5,6 @@ namespace Dark\PW\Blog;
 
 class TagRenderer
 {
-
     /**
      * @param Tag $tag
      */
