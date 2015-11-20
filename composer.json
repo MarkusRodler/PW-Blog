@@ -1,0 +1,15 @@
+{
+    "name": "dark/pw-blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "Markus Rodler",
+            "email": "Markus.Rodler@live.de"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": { "Dark\\PW\\Blog\\": ["src/"] }
+    }
+}
