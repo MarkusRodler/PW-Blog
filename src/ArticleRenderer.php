@@ -10,6 +10,6 @@ class ArticleRenderer
      */
     public function render(Article $article)
     {
-        echo PHP_EOL . 'Article: ' . $article->getHeadline();
+        echo PHP_EOL . 'Article: ' . $article->getHeadline() . ' - ' . $article->getBody();
     }
 }
