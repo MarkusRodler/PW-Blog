@@ -13,7 +13,7 @@ class User
     /**
      * @return string
      */
-    function getEmail() : \string
+    function getEmail() : string
     {
         return $this->email;
     }
@@ -22,7 +22,7 @@ class User
      * @todo: Email abändern in Typ Email anstatt string
      * @param string $email
      */
-    public function __construct(\string $email)
+    public function __construct(string $email)
     {
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             throw new \InvalidArgumentException('E-Mail is not valid');

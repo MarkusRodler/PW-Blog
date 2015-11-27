@@ -28,7 +28,7 @@ class Article
     /**
      * @return string
      */
-    function getHeadline() : \string
+    function getHeadline() : string
     {
         return $this->headline;
     }
@@ -36,7 +36,7 @@ class Article
     /**
      * @return string
      */
-    function getBody() : \string
+    function getBody() : string
     {
         return $this->headline;
     }
@@ -63,7 +63,7 @@ class Article
      * @param array $tags
      * @param User $author
      */
-    public function __construct(\string $headline, \string $body, array $tags, User $author)
+    public function __construct(string $headline, string $body, array $tags, User $author)
     {
         $this->headline = $headline;
         $this->body = $body;

@@ -24,7 +24,7 @@ class Blog
     /**
      * @return string
      */
-    public function getName() : \string
+    public function getName() : string
     {
         return $this->name;
     }
@@ -62,7 +62,7 @@ class Blog
      * @param string $name
      * @param User $owner
      */
-    public function __construct(\string $name, User $owner)
+    public function __construct(string $name, User $owner)
     {
         $this->name = $name;
         $this->owner = $owner;
